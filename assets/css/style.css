@@ -143,6 +143,118 @@
     margin-bottom: 80px;
 }
 
-.section-three img {
+.section-three .img-box {
     text-align: center;
 }
+
+.section-three .img-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-three .inner-border-bottom {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* END SECTION THREE  */
+
+/* SECTION FOUR  */
+.section-four {
+    background-image: url(/assets/images/fun-facts-bg.png);
+    padding: 100px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-four .inner-box {
+    position: relative;
+}
+
+.section-four .inner-box::before {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 20px;
+    background-image: url(/assets/images/circle-dec.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top:45%;
+}
+
+.section-four .inner-box::before:nth-child(3) {
+    background-image: none;
+}
+
+.section-four .inner-box .inner-text {
+    color: #fff;
+    transform: translateY(0);
+    transition: all 0.3s ease 0s;
+
+}
+
+.section-four .inner-box .inner-number {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+
+/* END SECTION FOUR  */
+/* BLOG-ENTRIES */
+.blog-entry{
+    background-color: var(--color-three);
+    padding: 80px;
+}
+
+.blog-entry .keepInTouch {
+    font-size: 18px;
+}
+
+.blog-entry .keepText1 {
+    margin-top: 30px;
+    color: var(--color-text);
+}
+.blog-entry .keepText2 {
+    margin-top: 30px;
+    color: var(--color-text);
+}
+
+.blog-entry .inner-form input, .blog-entry .inner-form textarea {
+    border-radius: 50px;
+    width: 100%;
+    border: 1px;
+    padding: 10px;
+    border-color: #ddd;
+    outline: 0;
+
+}
+.blog-entry .inner-form input {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.blog-entry .inner-form textarea {
+    height: 150px;
+}
+
+.blog-entry .inner-form input:hover, .blog-entry .inner-form textarea:hover {
+    border-color: #ddd;
+    outline: 0;
+}
+
+.blog-entry .inner-form .button {
+    border: none;
+}
+
+
+/* END BLOG-ENTRIES */
+
+

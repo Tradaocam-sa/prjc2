@@ -4,6 +4,7 @@
     --color-one: #8261EE;
     --color-two: #FF589E;
     --color-text: #1E1E33;
+    --color-three:#F2F2FE;
 
     --font: 'Raleway', sans-serif;
 }
@@ -47,6 +48,21 @@ body {
     background: var(--color-one);
     color: #fff;
     text-decoration: none;
+}
+
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-head .inner-title {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.box-head .inner-desc {
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 
