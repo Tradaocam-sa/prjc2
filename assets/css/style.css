@@ -288,15 +288,76 @@
     align-items: center;
 }
 
-.banHang .box-button {
-    justify-content: center;
-    align-items: center;
+.banHang .container .box-button {
+    text-align: center;
+}
+
+.banHang .container .box-head .inner-title a{
+    color: var(--color-text);
+}
+
+.banHang .container .box-head  .inner-desc {
+    color: var(--color-text);
+    
 }
 
 
-
-
+.banHang .container .box-head .inner-title a:hover{
+    color: var(--color-two);
+    text-decoration:none;
+}
 
 /* END BANHANG */
 
 
+/* SECTION FIVE  */
+.section-five {
+    background: var(--color-three);
+}
+
+.section-five .box-head{
+    padding: 20px;
+}
+.section-five .inner-content {
+    background: #fff;
+    border-radius: 15px;
+    object-fit: contain;
+}
+
+.section-five .inner-image {
+    text-align: center;
+    margin: 10px 10px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.section-five .inner-comment {
+    display: flex;
+    
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.section-five .inner-comment .inner-name {
+    margin-left: 25px;
+
+}
+
+.section-five .container .inner-comment .inner-icon {
+    
+    display: block;
+    border-radius: 50%;
+}
+
+.section-five .container .inner-comment .inner-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.section-five .inner-text {
+    padding: 30px;
+    color:var(--color-text)
+}
+
+
+/* END SECTION FIVE  */
