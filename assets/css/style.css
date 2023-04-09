@@ -347,6 +347,7 @@
     
     display: block;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .section-five .container .inner-comment .inner-icon img {
